@@ -428,6 +428,9 @@ section{
     .contact form{
         flex-direction: column;
     }
+    .services-box{
+        height: 400px;
+    }
 
 }
 
