@@ -438,6 +438,9 @@ section{
     .services-box{
         height: 480px;
     }
+    .services h4{
+        font-size: 3rem;
+    }
 
 }
 
