@@ -38,12 +38,8 @@ body{
     color: var(--main-color);
     display: none;
 }
-.logo{
-    font-size: 3rem;
-    color: var(--text-color);
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.logo img{
+    width: 5vw;
 }
 .logo:hover{
     transform: scale(1.1);
@@ -51,8 +47,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #1f55e9 10%,
-        #e21414 100%
+        #2451cc 10%,
+        #ff0202 100%
     );
     background-clip: text;
     color: transparent;
@@ -70,7 +66,7 @@ span{
     border-bottom: 3px solid var(--main-color);
 }
 .gradient-btn{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
     background: linear-gradient(
@@ -105,6 +101,7 @@ section{
     flex-direction: column;
     align-items: left;
     text-align: left;
+    margin-top: 5rem;
 }
 .home-content h1{
     font-size: 5rem;
@@ -228,7 +225,6 @@ section{
     margin: 5rem 0;
 }
 .services{
-    /* background-color: var(--bg-color); */
     color: black;
 }
 .services h2{
@@ -245,7 +241,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 400px;
+    height: 450px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -271,7 +267,7 @@ section{
     font-weight: 800;
 }
 .services-info p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.7;
 }
@@ -401,7 +397,7 @@ section{
         display: block;
     }
     .gradient-btn{
-        display: none;
+        font-size: 1rem;
     }
     .home{
         flex-direction: column-reverse;
@@ -422,8 +418,13 @@ section{
         text-align: center;
         margin: 2rem 0;
     }
+
     .about img{
         width: 52vw;
+    }
+    .about-content{
+        text-align: center;
+        
     }
     .contact form{
         flex-direction: column;

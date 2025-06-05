@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ralph Joed</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="assets/logo.png">
 
 </head>
 <body>
@@ -16,11 +17,8 @@
 
     <header class="header">
         <a href="#home" class="logo">
-            Ralph <span>Joed</span>
+            <img src="assets/logo.png" alt="Logo">
         </a>
-
-        <i class="bx bx-menu" id="menu-icon"></i>
-    
     <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -28,29 +26,30 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact </a>
     </nav>
-    <button class="gradient-btn">Contact Me</button>
+    <button class="gradient-btn" >Contact Me</button>
+    <i class="bx bx-menu" id="menu-icon"></i>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, it's <span>Joed</span></h1>
+            <h1>Hi, it's <span>Ralph Joed</span></h1>
             <h3>I'm a <span>Web Developer</span></h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus ea ad provident corrupti ex vel veritatis numquam recusandae? Repellat voluptatibus molestias maxime sint nisi laudantium excepturi mollitia error animi adipisci.</p>
+            <p>Aspiring Front-End Developer with a passion for clean code, user-friendly interfaces, and innovative web applications. Currently taking Bachelor of Science in Information Technology at Colegio de Montalban. I specialize in HTML, CSS, JavaScript, PHP, and C#. I also have experience in system development using MySQL databases and various APIs.</p>
             
             <div class="social-icons">
-                <a href="#">
+                <a href="https://github.com/Stephen01623/" target="_blank">
                     <i class="bx bxl-github"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/lalpeujodeu.gelete.5" target="_blank">
                     <i class="bx bxl-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/joedgerente/" target="_blank">
                     <i class="bx bxl-instagram-alt"></i>
                 </a>
             </div>
 
             <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
+                <a href="#" class="btn" onclick="window.open('assets/resume.pdf', '_blank')">Hire</a>
                 <a href="#" class="btn">Contact</a>
             </div>
         </div>
@@ -62,41 +61,61 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="assets/joed.jpg" alt="">
+            <img src="assets/ralph.jpg" alt="">
         </div>
         <div class="about-content">
             <h2>About <span>Me</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, cum? Officiis atque nihil similique dolores at harum eveniet aperiam soluta error molestiae sequi optio exercitationem, sint natus beatae aut quam.</p>
+           <p> Hi! I'm <strong>Ralph Joed N. Gerente</strong>, a passionate Information Technology student from Colegio de Montalban, aspiring to become a front-end web developer and IT technician. With a strong foundation in web technologies like <strong>HTML, CSS, JavaScript, and PHP</strong>, and as a certified <strong>NC II passer in Computer System Servicing</strong>, I enjoy combining design and function to create tech solutions for everyday needs...</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
     <section class="services" id="services">
         <h2 class="heading">Services</h2>
 
+        
         <div class="services-container">
-            <div class="services-box">
-                <div class="services-info">
-                    <i class="bx bxl-figma"></i>
-                    <h4>Ui / Ux Designer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem voluptatem nostrum. Libero perferendis eum qui laboriosam consectetur dolorem aliquid ratione.</p>
-                
-                </div>
-            </div>
-
-            <div class="services-box">
+              <div class="services-box">
                 <div class="services-info">
                     <i class="bx bx-code"></i>
                     <h4>Frontend Developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem voluptatem nostrum. Libero perferendis eum qui laboriosam consectetur dolorem aliquid ratione.</p>
+                    <p> Creating responsive and user-friendly websites using HTML, CSS, JavaScript, and PHP.</p>
                     
                 </div>
             </div>
             <div class="services-box">
                 <div class="services-info">
-                    <i class="bx bx-code-curly"></i>
-                    <h4>Backend Developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem voluptatem nostrum. Libero perferendis eum qui laboriosam consectetur dolorem aliquid ratione.</p>
+                    <i class='bx bx-code-alt'></i> 
+                    <h4>System Development</h4>
+                    <p>  Building basic to intermediate-level systems such as event management tools, currency converters, and recruitment systems using C#, MySQL, and APIs.</p>
                     
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-wrench"></i>
+                    <h4>Computer Troubleshooting & Repair</h4>
+                    <p> Diagnosing and fixing common hardware and software issues on desktops and laptops.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-mobile"></i>
+                    <h4>Mobile Phone Basic Repair</h4>
+                    <p> Performing minor repairs, software resets, and troubleshooting on Android devices.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-paint"></i>
+                    <h4>Graphic Design for Social Media (Pub Mats)</h4>
+                    <p> Designing event posters, promotional materials, and announcements using Canva.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-support"></i>
+                    <h4>Technical Support Assistance</h4>
+                    <p>Providing support for basic tech-related concerns, such as software installation, printer setup, and OS reformatting.</p>
                 </div>
             </div>
         </div>
@@ -106,39 +125,9 @@
         <h2 class="heading">Projects</h2>
         <div class="projects-box">
             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
-                <div class="btn">Review Projects</div>
-            </div>
-             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
-                <div class="btn">Review Projects</div>
-            </div>
-             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
-                <div class="btn">Review Projects</div>
-            </div>
-             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 4</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
-                <div class="btn">Review Projects</div>
-            </div>
-             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 5</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
-                <div class="btn">Review Projects</div>
-            </div>
-             <div class="projects-card">
-                <img src="assets/place-of-work.webp" alt="">
-                <h3>Project 6</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil blanditiis ab minima neque eum cumque, odit debitis officia fugit asperiores sunt beatae in vel nisi? Ullam ipsum voluptate dolor ea!</p>
+                <img src="assets/CryptoEx.jpg" alt="">
+                <h3>CryptoEx</h3>
+                <p> A real-time multi-currency cryptocurrency converter developed in C# integrating Binance Webscocket.</p>
                 <div class="btn">Review Projects</div>
             </div>
            
@@ -184,7 +173,7 @@
             </div>
             <ul class="list">
                 <li>
-                    <a href="#">FAQ</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#services">Services</a>
@@ -208,6 +197,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="Javascript/script.js"></script>
 </body>
 </html>
