@@ -375,6 +375,10 @@ section{
     #menu-icon{
         display: block;
     }
+    .header a img {
+        width: 15vw;
+    }
+    
     .navbar{
         position: absolute;
         top: 100%;
@@ -397,7 +401,9 @@ section{
         display: block;
     }
     .gradient-btn{
-        font-size: 1rem;
+        font-size: 2rem;
+        width: 20rem;
+        height: 5rem;
     }
     .home{
         flex-direction: column-reverse;
