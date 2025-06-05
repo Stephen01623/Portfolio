@@ -136,25 +136,25 @@
     
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form  id="contact-form" onsubmit="sendEmail(event)">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" 
-                    placeholder="FullName">
-                    <input type="email"
+                    <input type="text" name="user_name"
+                    placeholder="Full Name">
+                    <input type="email" name="user_email"
                     placeholder="Email">
                 </div>
                  <div class="input-box">
-                   <input type="text"
+                   <input type="text" name="user_phone"
                    placeholder="Phone Number">
-                   <input type="text"
+                   <input type="text" name="subject" 
                    placeholder="Subject">
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id=""
+                <textarea name="message" id="" 
                 placeholder="Your Message" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send Message" class="btn">
+                <input type="submit" name="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
@@ -193,10 +193,8 @@
             </p>
     </footer>
 
-
-
-
-
     <script src="Javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="Javascript/Email.js"></script>
 </body>
 </html>
